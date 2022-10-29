@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Watch</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="./framework/bootstrap.min.css" type="text/css" media="all" />
+    <script src="./framework/bootstrap.bundle.min.js" type="text/javascript" charset="utf-8"></script>
+    <!-- my css -->
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="watch.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="friend.css" type="text/css" media="all" />
+</head>
+
+<body>
+  <div class="container bg-light">
+      <!-- navigasi utama -->
+      <nav class="mynav bg-light">
+        <ul class="cf mx-auto px-0">
+          <li><a href="index.html"><i class="bi bi-house-door"></i></a></li>
+          <li><a href="friend.html"><i class="bi bi-people"></i></a></li>
+          <li class="nav-active"><a href="#"><i class="bi bi-play-btn-fill"></i></a></li>
+          <li><a href="G"><i class="bi bi-controller"></i></a></li>
+          <li><a href="N"><i class="bi bi-bell"></i></a></li>
+          <li><a href="="><i class="bi bi-list"></i></a></li>
+        </ul>
+      </nav>
+      
+      <!-- logo watch -->
+      <h1 class="d-inline-block">Watch</h1>
+      <!-- logo searching -->
+      <div class="top-btn rounded-circle">
+        
+      </div>
+      <!-- logo messenger -->
+      <div class="top-btn rounded-circle">
+        
+      </div>
+      <!-- watch navigasi -->
+      <div class="nav-watch bg-light">
+        <ul class="nav-flex d-flex">
+          <li class="watch-active">Untuk Anda</li>
+          <li>Siaran Langsung</li>
+          <li>Mengikuti</li>
+          <li>Makanan</li>
+          <li>Game</li>
+        </ul>
+      </div>
+      
+      <!-- header content -->
+      <div class="clearfix nav-bot pt-3">
+          <h3 class="float-start w-80">Baru untuk Anda</h3>
+          <p class="d-inline-block float-end seeAll rounded py-0 px-1 text-primary">Lihat<br/>Semua (4)</p>
+        </div>
+        
+        <!-- postingan -->
+        <div class="postingan clearfix">
+          <div class="btn-posting"><span class="mx-2">•••</span><span>X</span></div>
+          <div class="mx-2 pp-posting-watch d-inline-block"><img class="rounded-circle" src="./img/1.jpg" alt="" /></div>
+          <p class="mb-2 fw-bold">Mikey Kun <span class="follow">Ikuti</span></p>
+          <p class="text-muted">1 jam yang lalu</p>
+          <p onclick="show(0)" id="postingan_0" class="p-posting lead">Sebuah Postingan Video</p>
+          <video src="./video/vid.mp4"  class="post-video opacity-0" muted loop id="vid0" width="100%" height="250">
+            <source type="video/mp4">
+          </video>
+          <div class="btn-play-video btn-0" onclick="playVid(0)"></div>
+          <div class="coment-top position-relative py-1">
+            <suki>😅👍</suki><span class="suki-count"></span>
+            <p class="position-absolute text-muted">999 komentar</p>
+          </div>
+           <!-- menu respons postingan -->
+         <div class="border-b mt-1">
+           <div class="nav-3 mt-2 text-center text-muted">
+              <div>Suka</div>
+              <div>Komentar</div>
+              <div>Kirim</div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="division"></div>
+        
+        <div class="postingan clearfix">
+          <div class="btn-posting"><span class="mx-2">•••</span><span>X</span></div>
+          <div class="mx-2 pp-posting-watch d-inline-block"><img class="rounded-circle" src="./img/1.jpg" alt="" /></div>
+          <p class="mb-2 fw-bold">Mikey Kun <span class="follow">Ikuti</span></p>
+          <p class="text-muted">1 jam yang lalu</p>
+          <p onclick="show(1)" id="postingan_1" class="p-posting lead">Sebuah Postingan Video</p>
+          <video src="./video/vid.mp4"  class="post-video opacity-0" muted loop id="vid1" width="100%" height="250">
+            <source type="video/mp4">
+          </video>
+          <div class="btn-play-video btn-1" onclick="playVid(1)"></div>
+          <div class="coment-top position-relative py-1">
+            <suki>😅👍</suki><span class="suki-count"></span>
+            <p class="position-absolute text-muted">999 komentar</p>
+          </div>
+           <!-- menu respons postingan -->
+         <div class="border-b mt-1">
+           <div class="nav-3 mt-2 text-center text-muted">
+              <div>Suka</div>
+              <div>Komentar</div>
+              <div>Kirim</div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="division"></div>
+        
+        <div class="postingan mb-2 clearfix">
+          <div class="btn-posting"><span class="mx-2">•••</span><span>X</span></div>
+          <div class="mx-2 pp-posting-watch d-inline-block"><img class="rounded-circle" src="./img/1.jpg" alt="" /></div>
+          <p class="mb-2 fw-bold">Mikey Kun <span class="follow">Ikuti</span></p>
+          <p class="text-muted">1 jam yang lalu</p>
+          <p onclick="show(2)" id="postingan_2" class="p-posting lead">Sebuah Postingan Video</p>
+          <video src="./video/vid.mp4"  class="post-video opacity-0" muted loop id="vid2" width="100%" height="250">
+            <source type="video/mp4">
+          </video>
+          <div class="btn-play-video btn-2" onclick="playVid(2)"></div>
+          <div class="coment-top position-relative py-1">
+            <suki>😅👍</suki><span class="suki-count"></span>
+            <p class="position-absolute text-muted">999 komentar</p>
+          </div>
+          <!-- menu respons postingan -->
+          <div class="border-b mt-1">
+            <div class="nav-3 mt-2 text-center text-muted">
+              <div>Suka</div>
+              <div>Komentar</div>
+              <div>Kirim</div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="division"></div>
+        
+        <div class="postingan mb-2 clearfix">
+          <div class="btn-posting"><span class="mx-2">•••</span><span>X</span></div>
+          <div class="mx-2 pp-posting-watch d-inline-block"><img class="rounded-circle" src="./img/1.jpg" alt="" /></div>
+          <p class="mb-2 fw-bold">Mikey Kun <span class="follow">Ikuti</span></p>
+          <p class="text-muted">1 jam yang lalu</p>
+          <p onclick="show(3)" id="postingan_3" class="p-posting lead">Sebuah Postingan Video</p>
+          <video src="./video/vid.mp4"  class="post-video opacity-0" muted loop id="vid3" width="100%" height="250">
+            <source type="video/mp4">
+          </video>
+          <div class="btn-play-video btn-3" onclick="playVid(3)"></div>
+          <div class="coment-top position-relative py-1">
+            <suki>😅👍</suki><span class="suki-count"></span>
+            <p class="position-absolute text-muted">999 komentar</p>
+          </div>
+          <!-- menu respons postingan -->
+          <div class="border-b mt-1">
+            <div class="nav-3 mt-2 text-center text-muted">
+              <div>Suka</div>
+              <div>Komentar</div>
+              <div>Kirim</div>
+            </div>
+          </div>
+        </div>
+  </div>
+  <script src="./framework/jquery-3.6.0.min.js" type="text/javascript" charset="utf-8"></script>
+    <!-- my script -->
+   <script src="watch.js" type="text/javascript" charset="utf-8"></script>
+</body>
+
+</html>

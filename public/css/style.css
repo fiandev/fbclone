@@ -1,0 +1,331 @@
+#container {
+  min-height: 100vh;
+}
+.top-btn {
+  width: 30px;
+  height: 30px;
+  background-color: #00CFFA;
+  display: inline-block;
+  margin: 0 5px;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+body {
+  background-color: #8B94A2;
+}
+.mynav {
+  width: 100%;
+}
+.mynav ul li {
+  list-style-type: none;
+  display: inline-block;
+  width: 15.5%;
+  height: 50px;
+  font-size: 25px;
+  line-height: 50px;
+  text-align: center;
+}
+.mynav ul {
+  border-bottom: solid 0.4px #000;
+}
+.mynav ul li:hover {
+  background-color: lightgray;
+}
+.mynav ul li:hover a {
+  color: #000;
+}
+.mynav ul li:hover svg {
+  fill: #000;
+}
+.mynav ul li a i {
+  width: 80%;
+  height: 80%;
+}
+.nav-active {
+  border-bottom: solid 3px #0071FF;
+}
+.nav-active a {
+  color: #0071FF;
+}
+.nav-active svg {
+  fill: #0071FF;
+}
+.pp {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  padding: 3px;
+}
+.pp-story {
+  width: 30px;
+  height: 30px;
+}
+.make-status {
+  border-radius: 30px;
+  height: 40px;
+  display: inline-block;
+  width: 75%;
+}
+.logo-product {
+  color: #0071FF;
+}
+.nav-3 {
+  display: flex;
+  justify-content: center;
+  gap: 1%;
+  margin: 1% 0;
+}
+.nav-3 div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 30px;
+  line-height: 30px;
+  font-size: 15px;
+  overflow-y: hidden;
+}
+.nav-3 div:hover {
+  background-color: lightgrey;
+}
+.mid {
+  border-left: solid 0.4px #000;
+  border-right: solid 0.4px #000;
+}
+.after-nav {
+  border-bottom: solid 0.4px #000;
+  margin-bottom: 10px;
+}
+.container-story {
+  overflow-x: scroll;
+  width: 100%;
+  max-width: 100%;
+}
+.division {
+  height: 10px;
+  width: 100%;
+  background-color: lightgrey;
+  margin-bottom: 10px;
+}
+.story {
+  width: auto;
+  display: flex;
+}
+.story .item-story {
+  height: 170px;
+  width: 90px;
+  background-color: #0071FF;
+  border-radius: 10px;
+  position: relative;
+  background-image: url(./img/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  margin: 0 5px;
+}
+.story .item-story p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 13px;
+  color: #fff;
+}
+.item-story-1 , .item-story-2 {
+  height: 170px;
+  width: 88px;
+  border-radius: 10px;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  margin: 0 5px;
+}
+
+.item-story-1 {
+  background-image: linear-gradient(#00C671, #00B0DE);
+  overflow: hidden;
+}
+.item-story-1 .anue {
+  padding: 50px 0px;
+  justify-content: center;
+  font-weight: bold;
+  color: #fff;
+}
+.item-story-1 img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0 0 5px #000;
+}
+.item-story-2 {
+  border: solid .4px #000;
+}
+.item-story-2 .helf-pp {
+  height: 70%;
+  background-color: #09B6AF;
+  background-image: url(./img/1.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.item-story-2 .mid-plus {
+  position: absolute;
+  top: 60%;
+  left: 33%;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: #0071FF;
+  border: solid 3px #fff;
+  color: #fff;;
+}
+.item-story-2 p {
+  font-size: 10px;
+  position: absolute;
+  top: 85%;
+  left: 20%;
+  font-weight: bold;
+}
+.seeAll:hover {
+  background-color: lightgrey;
+}
+.postingan {
+  margin-bottom: 15px;
+}
+.pp-posting-group {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  background-image: url("./img/grup.jpg");
+  background-size: cover;
+  background-position: center;
+  float: left;
+  border-radius: 15px;
+  border: solid .1px #000;
+}
+.pp-posting-personal {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  float: left;
+}
+.pp-posting-personal img {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: solid .1px #000;
+}
+.pp-posting-group img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: solid 2px #fff;
+}
+.postingan .text-muted {
+  font-size: 13px;
+  margin-top: -10px;
+}
+.postingan {
+  position: relative;
+}
+.btn-posting {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.postingan p {
+  font-size: 15px;
+}
+.post-media {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+}
+.coment-top {
+  border-bottom: solid .4px #000;
+}
+.coment-top p {
+  right: 0;
+  top: 15px;
+  bottom: 0;
+}
+.border-b {
+  border-bottom: solid .4px #000;
+}
+
+.ilang {
+  opacity: 0;
+}
+.readmore {
+  display: none;
+}
+@media screen and (max-width: 500px){
+  .readmore {
+    display: block;
+  }
+}
+.over-paragraf {
+  max-height: 10vh;
+  position: relative;
+  overflow: hidden;
+}
+.comments-field .comment .username {
+  min-width: 40%;
+  max-width: 40%;
+  overflow-x: scroll;
+  word-wrap: nowrap;
+  font-size: 1rem;
+}
+.writePost {
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999999;
+}
+.top-menu {
+  font-size: 1rem;
+}
+.writePost .input-field {
+  min-height: 20vh;
+  max-height: 20vh;
+  width: 100%;
+  border: none;
+  outline: none;
+}
+.bottom-menu .menu {
+  font-size: 1rem;
+  border-bottom: solid .2px #000;
+}
+.btn-publish:hover {
+  background-color: #0071FF;
+  color: #fff;
+}
+
+
+
+#preview img {
+  max-width: 8rem;
+}
+
+#preview video {
+  width: auto;
+  max-width: 50%;
+}

@@ -1,0 +1,29 @@
+.list-teman {
+  min-height: 0vh;
+}
+.photo-profile {
+  height: 90px;
+  width: 90px;
+  border: solid 0.1px #000;
+}
+.profile-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.teman {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.nama-teman p {
+  font-size: 10px;
+  display: inline;
+}
+.nama-teman h6 {
+  display: inline-block;
+  
+  width: 100%;
+  font-weight: bold;
+}
